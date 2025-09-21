@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    display: inline;
+    white-space: 5vw;
+    transition: all 0.5s ease-in-out;
+}
+header{
+    height: 10vh;
+    font-size:2em ;
+    background-color:aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     
+}
+
+button{
+    color: rgb(234, 237, 239);
+    background-color: rgb(3, 185, 240);
+    border-radius: 10%;
+
+}
+.left button{
+    width: 25vw;
+    height: 10vh 
+}
+
+.container{
+    height: 80vh;
+    background:linear-gradient(to right,rgb(225, 216, 217),rgb(235, 139, 155)) ;
+
+    display: flex;
+    justify-content: space-evenly ;
+    align-items: center;
+
+}
+.left{
+    
+    flex: 0 0 40%
+}
+.left h1{
+    font-size: 4em;
+    
+}
+.left p{
+    font-size: 2rem;
+}
+span{
+    color: aqua;
+}
+
+.right{
+    
+    flex: 0 0 30%;
+}
+
+/* some hover effects */
+li:hover{
+    color: yellow;
+    background-color: black;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: blueviolet;
+}
