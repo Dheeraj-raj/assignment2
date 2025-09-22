@@ -30,6 +30,7 @@ button{
 }
 
 .container{
+    width: 100vw;
     height: 80vh;
     background:linear-gradient(to right,rgb(225, 216, 217),rgb(235, 139, 155)) ;
 
@@ -39,7 +40,7 @@ button{
 
 }
 .left{
-    
+    height: 70vh;
     flex: 0 0 40%
 }
 .left h1{
