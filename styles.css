@@ -30,12 +30,12 @@ button{
     height: 10vh 
 }
 body{
-    width: 100%;
-    aspect-ratio: 16/9;
+    width: 100vw;
+    height: 100vh;
+    /* aspect-ratio: 16/9;*/
 }
 .container{
-    /* width: 100vw;
-    aspect-ratio: 16/9; */
+  
     background:linear-gradient(to right,rgb(225, 216, 217),rgb(235, 139, 155)) ;
 
     display: flex;
@@ -43,46 +43,34 @@ body{
     justify-content: space-evenly ;
     align-items: center;
     background-size: cover;
+   
 
 }
 .left{
-    
     flex: 0 0 40%;
-    /* justify-self: center;
-    align-self: center; */
-    margin-bottom: 10vh;
+    padding: 10px;
 }
 .left h1{
-    font-size: 4em;
+    font-size: 4rem;
     
 }
 .left p{
-    font-size: 2em;
+    font-size: 2rem;
 }
 span{
     color: aqua;
 }
 
 .right{
-    /* justify-self: center;
-    align-self: center;
-    */
-    max-width: 100%;
-    height: auto;
-    flex: 0 0 30%;
-    margin-right: 10vw;
+    flex:0 0 30%;
+    padding: 10px;
 }
-/* @media(max-width:768px){
-    body{
-        font-size: 10px;
-        width: 100%;
-        aspect-ratio: 16/9;
+
+@media (max-width: 740px) {
+    .container{
+        flex-direction:column ;
     }
-    /* .container{
-        width: 100%;
-        aspect-ratio: 16/9;
-    }
-} */
+}
 
 /* some hover effects */
 li:hover{
